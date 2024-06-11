@@ -52,6 +52,12 @@ This README provides instructions on how to set up and run the Chroma Vector dat
 
 ### Set up the requisites :
 
+- install the requirements python libraries :
+
+  ```sh
+  pip install -r requirements.txt
+  ```
+
 - run cmd (need good Internet):
   
   ```sh
@@ -66,12 +72,19 @@ To save data to the Chroma Vector database, use the provided Jupyter Notebook.
 
 2. Follow the instructions within the notebook to save your data to the Chroma Vector database.
 
-### Create RAG System :
-
-
-### Fine-Turn the LLM :
-
 
 ---
 
-This README file should help you get started with running and using the Chroma Vector database and chatbot app.
+## Contributors
+
+- **[Khattabi Idriss](https://github.com/drisskhattabi6)**
+- **[Chihab Edin](https://github.com/novoSoftEng/)**
+- **[Boufarhi Ayman](https://github.com/aymanboufarhi)**
+
+---
+
+**Abdelmalek Essaadi University** - Faculty of Sciences and Techniques Tangier
+   - Department : Computer Engineering
+   - Master : AI & DS
+   - Module : Natural Language Processing
+   - Framed by : Pr. Lotfi ELAACHAK
