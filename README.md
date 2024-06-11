@@ -1,6 +1,6 @@
 # Fine-Turn and RAG French FSTT chatbot
 
-This repository contains a chatbot application french language designed to assist students and visitors of the Faculty of Sciences and Techniques in Tanger (FSTT) website. The chatbot utilizes natural language processing (NLP) to understand user queries and provide relevant information about the university's programs, courses, and other academic-related topics.
+This repository contains a chatbot application (for french language) designed to assist students and visitors of the Faculty of Sciences and Techniques in Tanger (FSTT) website. The chatbot utilizes natural language processing (NLP) to understand user queries and provide relevant information about the university's programs, courses, and other academic-related topics.
 
 The ChatBot is implemented with two approach: 
 - Retrival-Augmented Generation (RAG).
@@ -72,6 +72,30 @@ To save data to the Chroma Vector database, use the provided Jupyter Notebook.
 
 2. Follow the instructions within the notebook to save your data to the Chroma Vector database.
 
+### run the chatbot interface :
+- click `Ctrl+C` then restart the app :
+  
+ ```sh
+   docker compose up
+   ```
+- Go to this URL : 
+
+```sh
+   http://localhost:4200/
+   ```
+
+## 📊 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰 :
+- Front-End: Angular
+- Back-End: Flask, ChromaDB
+- Language Models: gemma 2b-it, Huggingface
+
+---
+
+## More Informations :
+
+- the fine-turned LLM : https://huggingface.co/aymanboufarhi/gemma2B-chat-bot-fstt
+- there is two option (fine-turn and RAG) in Chatbot App, so if you want to use the fine-turned llm, the app will download the llm from previous link, but if you want to use RAG, the app will download the gemma-2b-it llm. (so there is two separeted LLM)
+- you must have a good laptop to run the two LLMs in the same time.
 
 ---
 
