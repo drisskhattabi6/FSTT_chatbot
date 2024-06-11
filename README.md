@@ -8,6 +8,16 @@ The ChatBot is implemented with two approach:
 
 This README provides instructions on how to set up and run the Chroma Vector database using Docker, how to Create *RAG* System for **Gemma 2b LLM**, how to *Fine-Turn* Gemma 2b LLM and how to run the chatbot interface.
 
+## 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 :
+
+- 🔹 **Model Flexibility**: Users can effortlessly switch between RAG and fine-tuned models, tailoring the chatbot's capabilities to their specific needs.
+
+- 🔹 **Blazing Fast Performance**: Built with Angular, our front-end guarantees a responsive and seamless user experience.
+
+- 🔹 **Scalable Architecture**: Our application is containerized using Docker, ensuring it can scale and adapt to various environments effortlessly.
+
+- 🔹 **Advanced Back-End**: Utilizing Flask, ChromaDB, and a fine-tuned version of the gemma 2b-it model, our back-end is robust and efficient.
+
 ## Prerequisites :
 
 - **Docker** and **Python** must be installed on your system.
@@ -102,7 +112,7 @@ To save data to the Chroma Vector database, use the provided Jupyter Notebook.
 ## Contributors
 
 - **[Khattabi Idriss](https://github.com/drisskhattabi6)**
-- **[Chihab Edin](https://github.com/novoSoftEng/)**
+- **[Chihab Eddine Liefrid](https://github.com/novoSoftEng)**
 - **[Boufarhi Ayman](https://github.com/aymanboufarhi)**
 
 ---
@@ -112,3 +122,7 @@ To save data to the Chroma Vector database, use the provided Jupyter Notebook.
    - Master : AI & DS
    - Module : Natural Language Processing
    - Framed by : Pr. Lotfi ELAACHAK
+
+---
+
+Feel free to explore the project and customize it according to your requirements. If you encounter any issues or have any questions, don't hesitate to reach out!
