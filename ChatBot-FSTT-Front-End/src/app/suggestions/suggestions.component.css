@@ -1,0 +1,30 @@
+mat-chip-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  mat-chip {
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  mat-chip:hover {
+    background-color: #d0d0d0;
+  }
+  
+  mat-chip:active {
+    background-color: #c0c0c0;
+  }
+  
+  mat-chip:focus {
+    outline: none;
+    box-shadow: 0 0 5px #aaa;
+  }
+  

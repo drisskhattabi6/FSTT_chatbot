@@ -1,0 +1,15 @@
+.mat-toolbar {
+  position: relative;
+}
+
+.left-logo, .middle-logo, .right-logo, .navigation {
+  display: flex;
+  align-items: center;
+}
+
+.left-logo img, .middle-logo img, .right-logo img, .navigation button {
+  max-height: 60px;
+  margin: 0 10px;
+}
+
+

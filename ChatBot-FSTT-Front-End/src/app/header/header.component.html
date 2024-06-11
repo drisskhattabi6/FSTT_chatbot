@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <div class="left-logo">
+      <!-- Left Logo Here -->
+      <img src="assets/fstt-L.png" alt="Left Logo">
+    </div>
+    <div class="middle-logo">
+      <!-- Middle Logo Here -->
+      <img src="assets/iasd-L.png" alt="Middle Logo">
+    </div>
+    <div class="navigation">
+      <!-- Navigation Menu Here -->
+      <button mat-button routerLink="/" routerLinkActive="active" >Home</button>
+      <button mat-button routerLink="/about" routerLinkActive="active" >About</button>
+      <mat-menu #modelMenu="matMenu">
+        <button mat-menu-item (click)="selectModel('fine-tuned')">Fine-Tuned Model</button>
+        <button mat-menu-item (click)="selectModel('rag')">RAG</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="modelMenu">{{model}}</button>
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>

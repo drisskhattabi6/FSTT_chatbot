@@ -1,0 +1,8 @@
+<!-- message.component.html -->
+<div class="message-wrapper">
+    <mat-icon *ngIf="message.user === 'User'" class="user-icon">person</mat-icon>
+    <mat-icon *ngIf="message.user === 'Bot'" class="bot-icon">android</mat-icon>
+    <p [ngClass]="{'user-message': message.user === 'User', 'bot-message': message.user === 'Bot'}">{{ message.text }}</p>
+  </div>
+  
+

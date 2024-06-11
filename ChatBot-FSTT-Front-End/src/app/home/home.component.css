@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    height: 100vh; /* Ensures the container takes full viewport height */
+  }
+  
+  .spacer {
+    flex: 1; /* Adjusts spacing on either side of the main content */
+  }
+  
+  .main-content {
+    flex: 3; /* Main content takes 3 parts of the total space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .full-height {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }

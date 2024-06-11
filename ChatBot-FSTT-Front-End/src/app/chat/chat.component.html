@@ -1,0 +1,26 @@
+<div class="chat-container">
+  <div class="chat-window">
+    <div class="message" *ngFor="let message of messages; let i = index">
+      <app-message [message]="message"></app-message>
+      <app-suggestions *ngIf="i === 0 && showSuggestions" (question)="handleQuestion($event)" (click)="hideSuggestions()"></app-suggestions>
+    </div>
+  </div>
+  <div class="chat-input-container">
+    <div class="chat-input">
+      <mat-form-field class="example-full-width">
+        <mat-label>Ta question...</mat-label>
+        <input matInput placeholder="Type your question..." [(ngModel)]="newMessage" (keyup.enter)="sendMessage()" aria-label="Chat input">
+        <button class="input-btn" mat-icon-button matSuffix color="primary" (click)="sendMessage()" aria-label="Send message">
+          <mat-icon color="accent">send</mat-icon>
+        </button>
+      </mat-form-field>
+    </div>
+  </div>
+  
+</div>
+
+
+  
+  
+  
+  

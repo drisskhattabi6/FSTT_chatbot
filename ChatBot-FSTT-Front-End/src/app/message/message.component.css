@@ -1,0 +1,22 @@
+.user-message {
+    background-color: #2478f7;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px 0;
+  }
+  
+  .bot-message {
+    background-color: #c2f0c2;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px 0;
+  }
+.user-icon {
+  font-size: 24px; /* Adjust size as needed */
+  color: blue; /* Adjust color as needed */
+}
+
+.bot-icon {
+  font-size: 24px; /* Adjust size as needed */
+  color: green; /* Adjust color as needed */
+}
