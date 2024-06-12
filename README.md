@@ -8,6 +8,8 @@ The ChatBot is implemented with two approach:
 
 This README provides instructions on how to set up and run the Chroma Vector database using Docker, how to Create *RAG* System for **Gemma 2b LLM**, how to *Fine-Turn* Gemma 2b LLM and how to run the chatbot interface.
 
+<img src="src/gemma.png" style="with=200px">
+
 ## 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 :
 
 - 🔹 **Model Flexibility**: Users can effortlessly switch between RAG and fine-tuned models, tailoring the chatbot's capabilities to their specific needs.
@@ -17,6 +19,8 @@ This README provides instructions on how to set up and run the Chroma Vector dat
 - 🔹 **Scalable Architecture**: Our application is containerized using Docker, ensuring it can scale and adapt to various environments effortlessly.
 
 - 🔹 **Advanced Back-End**: Utilizing Flask, ChromaDB, and a fine-tuned version of the gemma 2b-it model, our back-end is robust and efficient.
+
+![demanded_arch](src/demanded_arch.png)
 
 ## Prerequisites :
 
@@ -94,6 +98,10 @@ To save data to the Chroma Vector database, use the provided Jupyter Notebook.
    http://localhost:4200/
    ```
 
+![front-end img](src/pic1.png)
+
+![front-end img](src/pic2.png)
+
 ## 📊 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰 :
 - Front-End: Angular
 - Back-End: Flask, ChromaDB
@@ -106,6 +114,7 @@ To save data to the Chroma Vector database, use the provided Jupyter Notebook.
 - the fine-turned LLM : https://huggingface.co/aymanboufarhi/gemma2B-chat-bot-fstt
 - there is two option (fine-turn and RAG) in Chatbot App, so if you want to use the fine-turned llm, the app will download the llm from previous link, but if you want to use RAG, the app will download the gemma-2b-it llm. (so there is two separeted LLM)
 - you must have a good laptop to run the two LLMs in the same time.
+- you will need a good Internet to download the requirements files.
 
 ---
 
