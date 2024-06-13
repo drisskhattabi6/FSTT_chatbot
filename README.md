@@ -52,6 +52,7 @@ This README provides instructions on how to set up and run the Chroma Vector dat
 │   └── RAG.py   # the RAG System for Gemma-2b-it LLM
 ├── README.md
 ├── docker-compose.yml   # A Docker Compose file to set up and manage multi-container Docker applications.
+├── report.pdf   # Contains all details about the project.
 └── requirements.txt   # Lists the Python dependencies needed to run the project.
 ```
 
